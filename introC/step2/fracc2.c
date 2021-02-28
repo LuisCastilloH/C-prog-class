@@ -25,7 +25,7 @@ int main() {
     fmenor = menor(arr);
     muestra("La fraccion menor es: ", &fmenor);
     // ya puedo liberar la memoria de arr
-    free(arr);
+    // free(arr);
     fsuma = suma(&fmayor, &fmenor);
     muestra("La suma de la fraccion mayor y menor es: ", &fsuma);
 

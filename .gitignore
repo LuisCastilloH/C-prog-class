@@ -1,6 +1,6 @@
 # folders
-introC/playground/
 introC/step1_2/
+**/playground/
 
 # Prerequisites
 *.d
