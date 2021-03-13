@@ -1,0 +1,7 @@
+12 Marcos 28 2.04
+11 Julian 31 2.14
+8 Juan 23 1.84
+14 Pedro 21 2.0
+9 Carlos 25 1.91
+10 Rogelio 34 1.74
+18 Antonio 30 2.09
