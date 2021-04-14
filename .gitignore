@@ -2,6 +2,7 @@
 *.zip
 introC/step1_2/
 **/playground/
+export/
 
 # Prerequisites
 *.d
