@@ -17,15 +17,14 @@ int main()
         double x, sum;
         id = omp_get_thread_num();
         nthrds = omp_get_num_threads();
-        /*if (id == 0) nthreads = nthrds;*/
         for (i=id, sum =0.0; i<num_steps; i=i+nthrds)
         {
             x = (i+0.5)*step;
-            #pragma omp critical
-                pi += 4.0/(1.0+x*x);
+            sum += 4.0/(1.0+x*x);
         }
+        #pragma omp critical
+            pi += sum*step;
     }
-    pi *= step;
     printf("Pi: %f\n", pi);
 
     return 0;
